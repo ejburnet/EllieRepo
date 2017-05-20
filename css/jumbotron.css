@@ -1,0 +1,424 @@
+@font-face {
+    font-family: 'im_fell_flowers_2regular';
+    src: url('../fonts/FeFlow2-webfont.eot');
+    src: url('../fonts/FeFlow2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FeFlow2-webfont.woff') format('woff'),
+         url('../fonts/FeFlow2-webfont.ttf') format('truetype'),
+         url('../fonts/FeFlow2-webfont.svg#im_fell_flowers_2regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  position:relative;
+  padding:50px 0 20px 0;
+  font-family:'Pompiere', cursive;
+}
+p {
+  font-size:2.5rem;
+  margin-bottom:1.5rem;
+}
+h2 {
+  font-size:4.5rem;
+}
+h3 {
+  font-size:3.5rem;
+}
+a.navbar-link:hover {
+  background-color:#f7f7f7 !important;
+}
+.bold {
+  font-weight:700;
+}
+.italic {
+  font-style:italic;
+}
+.list {
+  font-size:2.5rem;
+  list-style:none;
+  padding:0;
+}
+.list-item {
+  padding-bottom:1em;
+}
+.list-item-heading {
+  font-size:3rem;
+  line-height:2.5;
+}
+.list-item-heading::before {
+  content:'K \00a0';
+  font-family:'im_fell_flowers_2regular';
+}
+.jumbotron {
+  min-height:920px;
+  margin-bottom:0;
+  background:url(../flowers.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center 25%;
+  position:relative;
+  z-index:-5; 
+}
+.navbar-default,
+.navbar-collapse {
+  border-color:#fff !important;
+}
+.navbar {
+  background-color:#fff;
+  border-color:#9d9d9d;
+}
+.navbar-link {
+  margin-right:2em;
+  font-size:1.5em;
+  color:#9d9d9d;
+  text-transform:uppercase;
+}
+.navbar-link:hover {
+  color:#1F3347 !important;
+}
+.jumbotron h1 {
+  margin:1em 0;
+  padding:0;
+  font-family:'Fredericka the Great', cursive;
+  font-size:7em;
+  text-align:center;
+  text-transform:uppercase;
+  color:#1F3347;
+  position:fixed;
+}
+.detail {
+  width:23%;
+  min-width:430px;
+  margin:0 !important;
+  padding:.35em 0;
+  border-top:4px double #676767;
+  border-bottom:4px double #676767;
+  font-size:3em !important;
+  text-align:center;
+  text-transform:uppercase;
+  line-height:1;
+  color:#1F3347;
+  position:fixed;
+}
+.detail--location {
+  top:425px;
+}
+.lead {
+  width:75%;
+  margin:0 auto;
+  font-size:3em;
+  color:#1F3347;
+  text-align:center;
+}
+.lead::before {
+  display:block;
+  width:100%;
+  content:'d \00a0';
+  font-family:'im_fell_flowers_2regular';
+}
+.lead::after {
+  display:block;
+  width:100%;
+  content:'D \00a0';
+  font-family:'im_fell_flowers_2regular';
+}
+.welcome,
+.sched,
+.guest,
+.reg,
+.contact {
+  width:100% !important;
+  background-color:#fff;
+  padding-top:4em;
+  padding-bottom:4em;
+}
+.sched h2,
+.sched h3,
+.contact h2 {
+  font-family:'Fredericka the Great', cursive;
+}
+.welcome {
+  -webkit-box-shadow:2px 2px 2px 2px #363636;
+  box-shadow:2px 2px 2px 2px #363636;
+}
+.sched {
+  background-color:#ddd;
+}
+.sched {
+  margin-bottom:0;
+  background:url(../chalkboard.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:#fff;
+  text-shadow:0 1px 1px rgba(0,0,0,.9);
+  -webkit-box-shadow:2px 2px 2px 2px #ddd;
+  box-shadow:2px 2px 2px 2px #ddd;
+  border-top:1px solid #363636; 
+}
+.guest {
+  margin-bottom:0;
+  background:url(../hitchhiker.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-color:#fff;
+  color:#fff;
+  text-shadow:0 1px 1px rgba(0,0,0,.9);
+  -webkit-box-shadow:2px 2px 2px 2px #ddd;
+  box-shadow:2px 2px 2px 2px #ddd;
+}
+.reg {
+  width:75%;
+  margin:0 auto;
+  font-size:3em;
+  color:#1F3347;
+  text-align:center;
+  border-top:1px solid #fff;
+  background-color:#E0EEEE;  
+}
+.reg h2 {
+  text-transform:uppercase;
+}
+.reg h2::before {
+  content:'T \00a0';
+  font-family:'im_fell_flowers_2regular';
+  font-size:1.75em;
+}
+.reg h2::after {
+  content:'\00a0 S';
+  font-family:'im_fell_flowers_2regular';
+  font-size:1.75em;  
+}
+.reg p,
+.reg a {
+  font-size:3.75rem;
+}
+.contact {
+  border-top:1px solid #fff;
+  background-color:#ddd;
+  text-align:center;
+  color:#337ab7;
+}
+.contact img {
+  height:200px;
+  width:200px;
+}
+.contact p {
+  font-size:2.5em;
+}
+.contactInfo {
+  padding-top:1.5em;
+  text-align:center;
+}
+.dotted {
+  border-bottom:2px dotted;
+}
+.contactLink {
+  color:inherit;
+}
+.contactLink:hover,
+.contactLink:focus,
+.contactLink:active {
+  color:inherit;
+}
+#scrollUp {
+  bottom:20px;
+  right:20px;
+  background-color:#555;
+  color:#fff;
+  font-size:1.75rem;
+  text-decoration:none;
+  opacity:.9;
+  padding:10px 20px;
+  -webkit-border-radius:16px;
+  -moz-border-radius:16px;
+  border-radius:16px;
+  -webkit-transition:background 200ms linear;
+  -moz-transition:background 200ms linear;
+  -o-transition:background 200ms linear;
+  transition:background 200ms linear;
+  -webkit-backface-visibility:hidden;
+}
+#scrollUp:hover {
+  background-color:#000;
+}
+.ornament {
+  font-family:'im_fell_flowers_2regular';
+}
+footer {
+  padding-top:2rem;
+}
+a:hover,
+a:focus,
+a:active {
+  color:#337ab7;
+  text-decoration:none;
+  border:none;
+}
+.hover-dotted:hover {
+  border-bottom:2px dotted;
+}
+
+/*!
+ * Hover.css (http://ianlunn.github.io/Hover/)
+ * Version: 2.0.2
+ * Author: Ian Lunn @IanLunn
+ * Author URL: http://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
+ * Made available under a MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ * Hover.css Copyright Ian Lunn 2014. Generated with Sass.
+ */
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background:#337ab7;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, 
+.hvr-underline-from-center:focus:before, 
+.hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+/* Icon Wobble Horizontal */
+@-webkit-keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.hvr-icon-wobble-horizontal {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-right: 2.2em;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-icon-wobble-horizontal:before {
+  content: "\00bb \00a0";
+  position: absolute;
+  right: 1em;
+  padding: 0 1px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.hvr-icon-wobble-horizontal:hover:before, 
+.hvr-icon-wobble-horizontal:focus:before, 
+.hvr-icon-wobble-horizontal:active:before {
+  -webkit-animation-name: hvr-icon-wobble-horizontal;
+  animation-name: hvr-icon-wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@media screen and (max-width: 525px) {
+  .jumbotron h1 {
+    margin:.25em;
+    font-size:5em;
+  }
+  .detail, 
+  .detail--location,
+  .jumbotron h1 {
+    width:100%;
+    position:relative;
+    top:0;
+    padding:.35em 0;
+    margin:0;
+    text-align: left;
+  }
+}
